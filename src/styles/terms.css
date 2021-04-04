@@ -1,0 +1,22 @@
+.terms {
+  background-color: white;
+}
+.terms__wrapper {
+  padding: 70px 0 60px;
+  position: relative;
+}
+@media (min-width: 1024px) {
+  .splide__track {
+    overflow: visible;
+  }
+  .terms__list {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+  }
+  .terms__card {
+    margin-top: 30px;
+    width: 31.5%;
+  }
+}
