@@ -911,6 +911,9 @@ template {
   display: none;
 }
 
+.header__line {
+  margin: 0;
+}
 @media (min-width: 768px) {
   .header__phone-link {
     display: none;
@@ -946,6 +949,9 @@ template {
 }
 @media (min-width: 1024px) {
   .header__burger {
+    display: none;
+  }
+  .header__line {
     display: none;
   }
   .header__menu {
