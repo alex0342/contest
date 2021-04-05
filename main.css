@@ -1325,6 +1325,7 @@ template {
   display: flex;
   border-radius: 10px;
   background-color: #f1f7f8;
+  cursor: pointer;
   padding: 10px;
 }
 .answers__question {
