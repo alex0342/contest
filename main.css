@@ -1340,7 +1340,7 @@ template {
   transform: scaleY(0);
   height: 0;
   opacity: 0;
-  padding: 0 90px;
+  padding: 0;
   visibility: hidden;
   font-style: normal;
   font-weight: normal;
@@ -1357,7 +1357,7 @@ template {
   transform: scaleY(1);
   padding: 10px;
   visibility: visible;
-  height: 100%;
+  height: auto;
   opacity: 1;
 }
 
