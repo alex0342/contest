@@ -1336,29 +1336,26 @@ template {
   line-height: 26px;
   color: #3b3d46;
 }
+
 .answers__answer {
-  transform: scaleY(0);
   height: 0;
-  opacity: 0;
-  padding: 0;
-  visibility: hidden;
+  padding: 0 10px;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 22px;
   transform-origin: 0 0;
+  transform: scaleY(0);
   color: #3b3d46;
   transition: all 0.3s ease-in-out;
 }
+
 .answers__question_open {
   color: #00b4e3;
 }
 .answers__answer_open {
   transform: scaleY(1);
   padding: 10px;
-  visibility: visible;
-  height: auto;
-  opacity: 1;
 }
 
 @media (min-width: 768px) {
@@ -1391,6 +1388,7 @@ template {
   .answers__answer {
     font-size: 16px;
     line-height: 26px;
+    padding: 0 90px;
   }
   .answers__answer_open {
     padding: 30px 90px;
