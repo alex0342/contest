@@ -22,7 +22,7 @@
   opacity: 0.8;
 }
 .footer__links {
-  margin-top: 10px;
+  margin: 25px 0;
 }
 .footer__links-inner + .footer__links-inner {
   margin-top: 15px;

@@ -11,10 +11,14 @@ answerCards.forEach((item) => {
   const btn = item.querySelector('.answers__btn')
   const answer = item.querySelector('.answers__answer')
   const question = item.querySelector('.answers__question')
+  const text = item.querySelector('.answers__text')
   function openAnswer() {
     btn.classList.toggle('answers__btn_open')
     answer.classList.toggle('answers__answer_open')
     question.classList.toggle('answers__question_open')
+    answer.classList.contains('answers__answer_open')
+      ? (answer.style.height = text.clientHeight + 'px')
+      : (answer.style.height = 0 + 'px')
   }
 
   item.addEventListener('click', openAnswer)

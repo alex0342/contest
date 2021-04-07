@@ -73,7 +73,7 @@
 
 @media (min-width: 1024px) {
   .about {
-    background: url('../assets/banner.png') no-repeat;
+    background: url('../assets/banner.jpg') no-repeat;
     background-size: cover;
   }
   .about__wrapper {
